@@ -10,7 +10,6 @@
             <time><?= $ticket['date'] ?></time>
         </header>
         <p><?= $ticket['contenu'] ?></p>
-        <p>Etat : <?= $ticket['etat'] ?></p>
     </article>
     <hr />
 <?php endforeach; ?>
